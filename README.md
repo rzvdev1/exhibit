@@ -30,4 +30,4 @@ Let people know how they can dive into the project, include important links to t
 
 ## License
 
-MIT License &copy [Julio Ramirez](LICENSE)
+MIT License &copy; [Julio Ramirez](LICENSE)
