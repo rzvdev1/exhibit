@@ -1,16 +1,31 @@
 * {
-  background-color: #f3efe0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 h1 {
-  color: #222222;
+  text-shadow: 0 0 4px #222222;
+}
+h1,
+h2 {
+  font-size: 45px;
+  color: #22a39f;
   text-align: center;
 }
-p {
-  color: red;
+#font-size {
+  font-size: 35px;
 }
-/* color #332C39-black
-#434242 -gray
-#222222- black
-#22A39F -teal
-resource https://colorhunt.co/palettes/retro
-*/
+hr.rounded {
+  border-top: 4px solid #bbb;
+  border-radius: 5px;
+}
+p {
+  color: #222222;
+  font-size: 15px;
+  text-align: center;
+}
+div {
+}
+footer {
+  color: #f5a962;
+  font-size: 15px;
+}
