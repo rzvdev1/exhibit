@@ -23,9 +23,34 @@ p {
   font-size: 15px;
   text-align: center;
 }
-div {
+.align {
+  width: 750px;
+  height: 230px;
+  background: lightblue;
+  border-radius: 40px;
+  margin: auto;
+  padding: 1px;
+}
+button {
+  background-color: #f4511e;
+  border: none;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 20px;
+  width: 15%;
+  text-align: center;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 footer {
   color: #f5a962;
   font-size: 15px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
