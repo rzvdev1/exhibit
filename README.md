@@ -14,19 +14,19 @@ This project exists so that the client is comfortable, have better realtionship,
 
 ## Installation
 
-Provide code examples and explanations of how to get the project.
+use vs code to test website
 
 ## API Reference
 
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+Reference I use was w3schools
 
 ## Tests
 
-Describe and show how to run the tests with code examples.
+The if statement is used to test if the user answers yes or no
 
 ## Contributors
 
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
+Let me what you like and dislike about the site
 
 ## License
 
