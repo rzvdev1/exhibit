@@ -13,7 +13,7 @@ console.log(firstName.charAt(0).toUpperCase() + firstName.substring(1));
 let website = prompt(
   "Do you want a website to launch your dream business, Yes or No?"
 );
-if (website === "yes") {
+if (website === "yes" || website === "y") {
   alert(
     website.charAt(0).toUpperCase() +
       website.substring(1) +
@@ -26,7 +26,7 @@ console.log(website.charAt(0).toUpperCase() + website.substring(1));
 
 //Question 2
 let music = prompt("Do you listen to Lo-fi, Yes or No?");
-if (music === "yes") {
+if (music === "yes" || music === "y") {
   alert(
     music.charAt(0).toUpperCase() +
       music.substring(1) +
@@ -43,7 +43,7 @@ console.log(music.charAt(0).toUpperCase() + music.substring(1));
 
 //Question 3
 let drink = prompt("Do you drink coffee, Yes or No?");
-if (drink === "yes") {
+if (drink === "yes" || drink === "y") {
   alert(
     drink.charAt(0).toUpperCase() +
       drink.substring(1) +
@@ -60,7 +60,7 @@ console.log(drink.charAt(0).toUpperCase() + drink.substring(1));
 
 //Question 4
 let veteran = prompt("Are you a Veteran, Yes or No?");
-if (veteran === "yes") {
+if (veteran === "yes" || veteran === "y") {
   alert(
     veteran.charAt(0).toUpperCase() +
       veteran.substring(1) +
@@ -77,7 +77,7 @@ console.log(veteran.charAt(0).toUpperCase() + veteran.substring(1));
 
 //Question 5
 let pets = prompt("Do you have pets, Yes or No?");
-if (pets === "yes") {
+if (pets === "yes" || pets === "y") {
   alert(
     pets.charAt(0).toUpperCase() + pets.substring(1) + ", OMG! I have a Husky."
   );
