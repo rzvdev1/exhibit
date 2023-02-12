@@ -32,14 +32,6 @@ p {
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.align {
-  width: 750px;
-  height: 230px;
-  background: lightblue;
-  border-radius: 40px;
-  margin: auto;
-  padding: 1px;
-}
 button {
   background-color: #f4511e;
   border: none;
@@ -72,13 +64,14 @@ footer {
 
 .grid1 {
   border: 2px solid red;
-  padding: auto;
+  padding: 20px;
 }
 .grid2 {
   border: 2px solid black;
+  padding: 10px;
+  background-color: gray;
 }
 .grid3 {
   border: 2px solid blue;
-  padding: auto;
   padding: 20px;
 }
