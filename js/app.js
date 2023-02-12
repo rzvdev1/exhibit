@@ -1,4 +1,4 @@
-// "use strict";
+"use strict";
 // //Greeting User
 // let firstName = prompt("Hello, What is your first name?");
 // alert(
@@ -89,3 +89,97 @@
 //   );
 // }
 // console.log(pets.charAt(0).toUpperCase() + pets.substring(1));
+
+let score = 0;
+// let userInput = prompt("From numbers 1-5, what is my favorite number?");
+// userInput = Number(userInput);
+// let gotIt = false;
+
+// while (gotIt !== true) {
+//   console.log(userInput);
+//   switch (userInput) {
+//     case 1:
+//       alert("Too low");
+//       userInput = prompt("From numbers 1-5, what is my favorite number?");
+//       userInput = Number(userInput);
+//       break;
+//     case 2:
+//       alert("Too low");
+//       userInput = prompt("From numbers 1-5, what is my favorite number?");
+//       userInput = Number(userInput);
+//     case 3:
+//       alert("You are right!");
+//       score++;
+//       gotIt = true;
+//       console.log("Score is ---> " + score);
+//       break;
+//     case 4:
+//       alert("Too high");
+//       userInput = prompt("From numbers 1-5, what is my favorite number?");
+//       userInput = Number(userInput);
+//     case 5:
+//       alert("Too high");
+//       userInput = prompt("From numbers 1-5, what is my favorite number?");
+//       userInput = Number(userInput);
+//     default:
+//       alert("Enter a numeric number");
+//       alert("Correct number is 3");
+//       break;
+//   }
+// }
+
+let hobbies = [
+  "Read",
+  "Watch Anime",
+  "Play Video Games",
+  "Walk",
+  "Workout",
+  "Sleep",
+];
+let messageUser = alert("Guess one of my favorite hobbies and here is a hint");
+alert("Here is a list of possibilities: ");
+alert(hobbies);
+let userAnswer = prompt("Enter here your response");
+
+for (let i = 0; i < hobbies.length; i++) {
+  if (userAnswer === "read" || userAnswer === "Read") {
+    alert("Try again!");
+    alert("Here is a list of possibilities: ");
+    alert(hobbies);
+    userAnswer = prompt("Enter here your response");
+  } else if (userAnswer === "watch anime" || userAnswer === "Watch Anime") {
+    alert("Try again!");
+    alert("Here is a list of possibilities: ");
+    alert(hobbies);
+    userAnswer = prompt("Enter here your response");
+  } else if (
+    userAnswer === "play video games" ||
+    userAnswer === "Play Video Games"
+  ) {
+    alert("You are right!");
+    score++;
+    console.log("Score is ---> " + score);
+    break;
+  } else if (userAnswer === "walk" || userAnswer === "Walk") {
+    alert("Try again!");
+    alert("Here is a list of possibilities: ");
+    alert(hobbies);
+    userAnswer = prompt("Enter here your response");
+  } else if (userAnswer === "workout" || userAnswer === "Workout") {
+    alert("Try again!");
+    alert("Here is a list of possibilities: ");
+    alert(hobbies);
+    userAnswer = prompt("Enter here your response");
+  } else if (userAnswer === "sleep" || userAnswer === "Sleep") {
+    alert("Try again!");
+    alert("Here is a list of possibilities: ");
+    alert(hobbies);
+    userAnswer = prompt("Enter here your response");
+  } else {
+    alert("Try again!");
+    alert("Here is a list of possibilities: ");
+    alert(hobbies);
+    let userAnswer = prompt("Enter here your response");
+  }
+}
+alert("Your final score is: " + score);
