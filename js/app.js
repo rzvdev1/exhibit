@@ -92,8 +92,11 @@
 
 let score = 0;
 let numberOfGuesses = 4;
+let gotIt = false;
 
 while (gotIt !== true) {
+  let userInput = prompt("From numbers 1-5, what is my favorite number?");
+  userInput = Number(userInput);
   console.log(userInput);
   switch (userInput) {
     case 1:
@@ -105,6 +108,7 @@ while (gotIt !== true) {
       alert("Too low");
       userInput = prompt("From numbers 1-5, what is my favorite number?");
       userInput = Number(userInput);
+      break;
     case 3:
       alert("You are right!");
       score++;
@@ -115,13 +119,18 @@ while (gotIt !== true) {
       alert("Too high");
       userInput = prompt("From numbers 1-5, what is my favorite number?");
       userInput = Number(userInput);
+      break;
     case 5:
       alert("Too high");
       userInput = prompt("From numbers 1-5, what is my favorite number?");
       userInput = Number(userInput);
+      break;
     default:
-      alert("Enter a numeric number");
-      alert("Correct number is 3");
+      if (isNaN(userInput)) {
+        alert("Please enter a numeric number.");
+      } else {
+        alert("Incorrect number. Please enter a number from 1 to 5.");
+      }
       break;
   }
 }
