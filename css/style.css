@@ -19,6 +19,9 @@ h2 {
   color: #22a39f;
   text-align: center;
 }
+h3 {
+  font-size: 25px;
+}
 #font-size {
   font-size: 35px;
 }
@@ -74,4 +77,8 @@ footer {
 .grid3 {
   border: 2px solid blue;
   padding: 20px;
+}
+li {
+  font-family: "Tangerine", serif;
+  font-size: 35px;
 }

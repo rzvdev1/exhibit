@@ -126,12 +126,7 @@ while (gotIt !== true) {
       userInput = Number(userInput);
       break;
     default:
-      if (isNaN(userInput)) {
-        alert("Please enter a numeric number.");
-      } else {
-        alert("Incorrect number. Please enter a number from 1 to 5.");
-      }
-      break;
+      alert("correct number is 3");
   }
 }
 
